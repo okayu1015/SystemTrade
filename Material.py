@@ -10,7 +10,7 @@ bitflyer = key.bitflyerkey
 
 class bFOrderClass():
     def __init__(self, lot, minute, product_code):
-        self.LOT = LOT
+        self.LOT = lot
         self.MINUTE = minute
         self.product_code = product_code
 
